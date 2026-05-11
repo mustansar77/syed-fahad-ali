@@ -6,8 +6,8 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    role: "Web Programmer",
-    company: "HurTech",
+    role: "Senior Web Developer",
+    company: "HurTech LLC",
     location: "Pakistan",
     period: "2022 — Present",
     type: "Full-time",
@@ -27,7 +27,7 @@ const experiences = [
     role: "Virtual Assistant",
     company: "Xtreme Helmets",
     location: "Remote",
-    period: "2021 — 2022",
+    period: "2021 — Present",
     type: "Remote",
     gradient: "from-emerald-500 to-teal-600",
     tagLight: "bg-emerald-50 text-emerald-600 border-emerald-200",
@@ -40,11 +40,29 @@ const experiences = [
     ],
     tech: ["Shopify", "E-commerce", "Client Management", "Data Entry"],
   },
-  {
-    role: "Leads Expert",
-    company: "Epic Technology",
+  // {
+  //   role: "Leads Expert",
+  //   company: "Epic Technology",
+  //   location: "Pakistan",
+  //   period: "2020 — 2021",
+  //   type: "Full-time",
+  //   gradient: "from-violet-500 to-purple-600",
+  //   tagLight: "bg-violet-50 text-violet-600 border-violet-200",
+  //   tagDark: "dark:bg-violet-950/40 dark:text-violet-400 dark:border-violet-800/50",
+  //   points: [
+  //     "Generated high-quality B2B leads using Apollo.io, Hunter.io, and LinkedIn Sales Navigator.",
+  //     "Consistently hit monthly lead targets with 85%+ data accuracy.",
+  //     "Built and maintained CRM databases to improve sales team efficiency.",
+  //     "Developed outreach sequences that improved reply rates by 20%.",
+  //   ],
+  //   tech: ["Apollo.io", "Hunter.io", "LinkedIn Sales Navigator", "CRM"],
+  // },
+
+   {
+    role: "Software Developer",
+    company: "Islamia University of Bahawalpur",
     location: "Pakistan",
-    period: "2020 — 2021",
+    period: "2016 — 2017",
     type: "Full-time",
     gradient: "from-violet-500 to-purple-600",
     tagLight: "bg-violet-50 text-violet-600 border-violet-200",

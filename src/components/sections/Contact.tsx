@@ -8,7 +8,7 @@ const socials = [
   {
     label: "GitHub",
     value: "@fahadali",
-    href: "https://github.com/",
+    href: "https://github.com/fahadali6",
     bg: "bg-gray-900 dark:bg-gray-700 text-white",
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
@@ -29,7 +29,7 @@ const socials = [
   },
   {
     label: "Email",
-    value: "fahadphd96@gmail.com",
+    value: "itsfahad92@gmail.com",
     href: "mailto:fahadphd96@gmail.com",
     bg: "bg-rose-500 dark:bg-rose-600 text-white",
     svg: <Mail className="w-4 h-4" />,

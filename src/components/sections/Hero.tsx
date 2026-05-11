@@ -3,10 +3,11 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail, ArrowDown } from "lucide-react";
+import profileImage from "../../../public/profilepic.jpeg"
 
 const socials = [
   {
-    href: "https://github.com/",
+    href: "https://github.com/fahadali6",
     label: "GitHub",
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
@@ -15,7 +16,7 @@ const socials = [
     ),
   },
   {
-    href: "https://linkedin.com/in/sfahada/",
+    href: "https://www.linkedin.com/in/sfahada/",
     label: "LinkedIn",
     svg: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
@@ -23,7 +24,7 @@ const socials = [
       </svg>
     ),
   },
-  { href: "mailto:fahadphd96@gmail.com", label: "Email", svg: <Mail className="w-4 h-4" /> },
+  { href: "mailto:itsfahad92@gmail.com", label: "Email", svg: <Mail className="w-4 h-4" /> },
 ];
 
 export default function Hero() {
@@ -75,7 +76,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-base md:text-lg font-medium text-gray-400 dark:text-gray-500 mb-5"
             >
-              Frontend Developer &amp; Software Engineer
+              Full-Stack Developer &amp; Software Engineer
             </motion.p>
 
             <motion.p
@@ -143,7 +144,7 @@ export default function Hero() {
 
             <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white dark:border-gray-900 shadow-2xl shadow-indigo-200/40 dark:shadow-indigo-900/30">
               <Image
-                src="https://randomuser.me/api/portraits/men/32.jpg"
+                src={profileImage}
                 alt="Syed Fahad Ali"
                 fill
                 className="object-cover"

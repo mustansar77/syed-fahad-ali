@@ -22,7 +22,7 @@ const highlights = [
   {
     emoji: "🧠",
     title: "Deep Learning Research",
-    desc: "M.Phil thesis on Plant Disease Detection using CNNs — AI research meets real-world impact.",
+    desc: "M.Phil thesis on Plant Disease Detection using CNNs  AI research meets real-world impact.",
     light: "bg-violet-50 border-violet-100",
     dark: "dark:bg-violet-950/30 dark:border-violet-900/50",
     iconBg: "bg-violet-600",
@@ -38,7 +38,7 @@ const highlights = [
   {
     emoji: "🎓",
     title: "M.Phil Computer Science",
-    desc: "GPA 3.74 at IUB — combining academic research with professional engineering discipline.",
+    desc: "GPA 3.74 at IUB combining academic research with professional engineering discipline.",
     light: "bg-amber-50 border-amber-100",
     dark: "dark:bg-amber-950/30 dark:border-amber-900/50",
     iconBg: "bg-amber-500",
@@ -95,7 +95,7 @@ export default function About() {
         <motion.div initial={{ opacity: 0, y: 16 }} animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.1 }}
           className="max-w-2xl mb-10 space-y-3 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-          <p>I&apos;m a Frontend Developer and Software Engineer with 3+ years of experience building high-efficiency web applications — from React component libraries to full-stack MERN platforms.</p>
+          <p>I&apos;m a Full-Stack Developer and Software Engineer with 3+ years of experience building high-efficiency web applications  from React component libraries to full-stack MERN platforms.</p>
           <p>Pursuing my M.Phil in CS at IUB, I blend academic research with real-world engineering. My Deep Learning thesis on Plant Disease Detection reflects my passion for applying AI to meaningful problems.</p>
         </motion.div>
 
