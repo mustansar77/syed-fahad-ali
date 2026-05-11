@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail, ArrowDown } from "lucide-react";
-import profileImage from "../../../public/profilepic.jpeg"
+import profileImage from "../../../public/profilepic.jpg"
 
 const socials = [
   {
@@ -85,8 +85,10 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-sm text-gray-500 dark:text-gray-400 max-w-lg mb-8 leading-relaxed mx-auto lg:mx-0"
             >
-              Crafting high-efficiency, reliable, and user-focused web applications
-              with React, Next.js &amp; TypeScript. 3+ years building products that matter.
+              "Over the last 3+ years, I have specialized in transforming complex business requirements
+              into high-efficiency web applications. By leveraging the React ecosystem, Next.js, and TypeScript,
+              I build more than just interfaces I build scalable systems. My focus is on clean, type-safe architecture
+              and SEO-first development, ensuring that every product is not only reliable but also discoverable and ready for growth."
             </motion.p>
 
             <motion.div
@@ -142,7 +144,7 @@ export default function Hero() {
               <div className="w-full h-full rounded-full bg-white dark:bg-gray-950" />
             </div>
 
-            <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white dark:border-gray-900 shadow-2xl shadow-indigo-200/40 dark:shadow-indigo-900/30">
+            <div className="relative w-56 h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-900 shadow-2xl shadow-indigo-200/40 dark:shadow-indigo-900/30">
               <Image
                 src={profileImage}
                 alt="Syed Fahad Ali"
